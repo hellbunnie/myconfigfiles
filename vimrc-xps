@@ -1,0 +1,16 @@
+set nocompatible
+set laststatus=2
+set statusline=%<%f\%h%m%r%=%-20.(line=%l\ \ col=%c%V\ \ totlin=%L%)\ \ \%h%m%r%=%-40(bytval=0x%B,%n%Y%)\%P
+set ofu=syntaxcomplete#Complete
+set paste
+set backspace=indent,eol,start
+set nohlsearch
+set incsearch
+set ignorecase
+set ruler
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set hidden
+filetype plugin on
+syntax on
